@@ -1,0 +1,28 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 264px;
+  height: 336px;
+  background-color: #fff;
+  border-radius: 10px;
+  list-style-type: none;
+  margin-left: 75px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.text-wrapper {
+  margin-left: 20px;
+}
+
+.card-item img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}

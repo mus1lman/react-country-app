@@ -1,0 +1,30 @@
+.search-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-search {
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 19px 250px 19px 70px;
+}
+
+.input-search option {
+  width: 165px;
+  height: 164px;
+}
+
+.select {
+  width: 200px;
+  height: 56px;
+  background: #ffffff;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border: none;
+  border-radius: 5px;
+}

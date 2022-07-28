@@ -1,0 +1,31 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  color: #000;
+}
+
+.dark::after {
+  content: url("../../assets/images/img.svg");
+  position: absolute;
+  padding-top: 4px;
+  margin-left: -105px;
+}
